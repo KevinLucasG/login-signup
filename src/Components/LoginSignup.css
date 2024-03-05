@@ -4,11 +4,9 @@
   margin: auto;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 600px;
-  background-color: #fff;
   text-align: center;
-  border-radius: 5px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .header {
@@ -17,27 +15,37 @@
   font-size: 2rem;
   justify-content: center;
   text-align: center;
-  gap: 20px;
-  width: 500px;
-  height: 80vh;
+  gap: 15px;
+  width: 600px;
+  height: 800px;
   margin: auto;
   text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 .login {
   font-size: 3rem;
-  margin-bottom: 50px;
-  bottom: 500px;
+  margin-bottom: auto;
+  margin-left: 40%;
+  margin-top: 20px;
+  align-self: flex-start;
 }
 
 .header .text {
   text-align: left;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
 }
 
 .header input {
-  height: 20px;
+  height: 40px;
   margin: 0 auto;
-  width: 400px;
+  width: 500px;
+  border: none;
+  border-bottom: 2px solid;
 }
 
 .section {
@@ -46,14 +54,16 @@
 button {
   font-family: "Mitr", sans-serif;
   color: #fff;
+  margin-top: 30px;
   width: 25rem;
-  height: 30px;
-  border-radius: 10px;
+  height: 50px;
+  border-radius: 25px;
   background-image: linear-gradient(to right, #6cbeee, #ff00ea);
 }
 
 .signup {
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 1rem;
   text-decoration: underline;
 }
