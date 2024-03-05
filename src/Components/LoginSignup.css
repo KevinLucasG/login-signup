@@ -14,8 +14,15 @@
   text-align: center;
   gap: 20px;
   width: 500px;
+  height: 80vh;
+
   background-color: red;
   margin: auto;
+}
+
+.login {
+  font-size: 3rem;
+  bottom: 20px;
 }
 
 .header .text {
@@ -24,6 +31,15 @@
 
 .header input {
   height: 20px;
-  margin: auto;
+  margin: 0 auto;
   width: 400px;
+}
+
+button {
+  font-family: "Mitr", sans-serif;
+  color: #fff;
+  width: 40vw;
+  height: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #6cbeee, #ff00ea);
 }
