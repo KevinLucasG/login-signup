@@ -43,7 +43,7 @@
 .header input {
   height: 40px;
   margin: 0 auto;
-  width: 500px;
+  width: 450px;
   border: none;
   border-bottom: 2px solid;
 }
@@ -66,4 +66,19 @@ button {
   margin-bottom: 20px;
   font-size: 1rem;
   text-decoration: underline;
+}
+
+#userIcon {
+  background: url(./Assets/person.png) left no-repeat;
+  padding-left: 30px;
+}
+
+#emailIcon {
+  background: url(./Assets/email.png) left no-repeat;
+  padding-left: 30px;
+}
+
+#passwordIcon {
+  background: url(./Assets/password.png) left no-repeat;
+  padding-left: 30px;
 }
