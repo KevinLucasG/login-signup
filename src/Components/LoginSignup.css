@@ -24,12 +24,11 @@
   border-radius: 5px;
 }
 
-.login {
+.title {
   font-size: 3rem;
   margin-bottom: auto;
-  margin-left: 40%;
   margin-top: 20px;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .header .text {
@@ -68,6 +67,9 @@ button {
   text-decoration: underline;
 }
 
+.signup:hover {
+  cursor: point;
+}
 #userIcon {
   background: url(./Assets/person.png) left no-repeat;
   padding-left: 30px;
