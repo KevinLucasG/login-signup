@@ -7,18 +7,30 @@ export default function LoginSignup() {
     <div className="container">
       <div className="header">
         <div className="title">{action}</div>
-        <div className="text">Username</div>
-        <div className="inputs"></div>
-        <input type="text" placeholder="Typer your username" id="userIcon" />
-        <div className="text">Email</div>
-        <input type="email" placeholder="Type your email" id="emailIcon" />
-        <div className="text">Password</div>
 
-        <input
-          type="password"
-          placeholder="Type your password"
-          id="passwordIcon"
-        />
+        <div className="inputs">
+          {action === "Login" ? (
+            <div></div>
+          ) : (
+            <>
+              <div className="text">Username</div>
+              <input
+                type="text"
+                placeholder="Type your username"
+                id="userIcon"
+              />
+            </>
+          )}
+          <div className="text">Email</div>
+          <input type="email" placeholder="Type your email" id="emailIcon" />
+          <div className="text">Password</div>
+
+          <input
+            type="password"
+            placeholder="Type your password"
+            id="passwordIcon"
+          />
+        </div>
         <div className="section">
           <button
             className={action === "Login" ? "submit" : "subimit"}
